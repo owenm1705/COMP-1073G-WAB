@@ -41,7 +41,7 @@ function populateHeader(jsonBody) {
 /* STEP 10b: Assemble the showTopFlavors() function */
 function showTopFlavors(jsonBody) {
     // STEP 10c: Bind the JSON topFlavors object to a var
-    let topFlavors = jsonBody.topFlavours;
+    let topFlavors = jsonBody.topFlavors;
     // STEP 10d: Loop through the topFlavors object
     for (let i = 0; i < topFlavors.length; i++) {
         console.log(topFlavors[i]);
