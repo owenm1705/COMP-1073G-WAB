@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Order Your Pizza</h1>
+        <p id="student-info"></p> 
+    </header>
+    
+    <!-- Pizza Order Form -->
+    <form id="pizza-order-form">
+        
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!-- Dropdown for selecting pizza size -->
+        <label for="size">Choose Size:</label>
+        <select id="size" name="size" required>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        
+        <!-- Fieldset for selecting multiple toppings -->
+        <fieldset>
+            <legend>Choose Toppings:</legend>
+
+            <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+            
+            <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+            <label for="mushrooms">Mushrooms</label>
+            
+            <input type="checkbox" id="onions" name="toppings" value="Onions">
+            <label for="onions">Onions</label>
+            
+            <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+            <label for="sausage">Sausage</label>
+            
+            <input type="checkbox" id="bacon" name="toppings" value="Bacon">
+            <label for="bacon">Bacon</label>
+            
+            <input type="checkbox" id="extra-cheese" name="toppings" value="Extra Cheese">
+            <label for="extra-cheese">Extra Cheese</label>
+
+        </fieldset>
+        
+        <!-- Text area for special instructions -->
+        <label for="instructions">Special Instructions:</label>
+        <textarea id="instructions" name="instructions"></textarea>
+        
+        <button type="submit">Order</button>
+    </form>
+    
+    <!-- Section to display order summary after submission -->
+    <section id="order-summary"></section>
+
+</body>
+</html>
