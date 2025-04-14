@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  padding: 32px;
+}
+
+/* Centered Container */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  color: #ff4757;
+  margin-bottom: 16px;
+}
+
+#playerInput {
+  padding: 8px;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 8px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #2f2f3f;
+  color: #fff;
+}
+
+#searchBtn {
+  padding: 8px 16px;
+  background-color: #ffa502;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+}
+
+#searchBtn:hover {
+  background-color: #eccc68;
+}
+
+/* Card Style for Pokémon Info */
+.card {
+  background: #2a2a3d;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  margin-top: 16px;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* Footer */
+footer {
+  margin-top: 48px;
+  font-size: 14.4px;
+  color: #aaa;
+}
+
+footer a {
+  color: #70a1ff;
+  text-decoration: none;
+}
